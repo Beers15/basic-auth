@@ -32,9 +32,9 @@
 
 * REST Method POST
   * Path: /signin
-    * Takes a basic authentication header with a properly encoded username and password combination as input
-    * returns the user data as an object as output after account creation, or a proper error response if not request wasn't successful
+    * Sends a request with an "Authorization" header with the value Basic TOKEN that contains a properly encoded username and password combination
+    * returns the user's data as output after account creation, or a proper error response if the request wasn't successful
 
   * Path: /signup
     * takes a JSON obj or form data as input with user and password information
-    * returns the user data as an object as output after successful login attempt, or a proper error response if not request wasn't successful
+    * returns the user's data as output after a successful login attempt, or a proper error response if the request wasn't successful
