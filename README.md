@@ -2,7 +2,9 @@
 
 ## Installation
 
-  clone repo, and then run the 'npm i' command while in the root directory to install dependencies.
+  clone repo, and then in a terminal run the 'npm i' command while in the root directory to install dependencies. 
+  
+  To run the application, enter the 'npm run start' command in a terminal while in the root directory.
 
 ## Summary of Problem Domain
 
@@ -18,7 +20,7 @@
 
 ## Links to application deployment
 
-  App deployed on Heroku [here]()
+  App deployed on Heroku [here](https://basic-auth-class06.herokuapp.com/)
 
   Pull req from dev found [here](https://github.com/Beers15/basic-auth/pull/1)
 
