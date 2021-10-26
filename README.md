@@ -30,12 +30,11 @@
 
 ## Routes
 
-* REST Method GET
+* REST Method POST
   * Path: /signin
     * Takes a basic authentication header with a properly encoded username and password combination as input
     * returns the user data as an object as output after account creation, or a proper error response if not request wasn't successful
 
-* REST Method POST
   * Path: /signup
     * takes a JSON obj or form data as input with user and password information
     * returns the user data as an object as output after successful login attempt, or a proper error response if not request wasn't successful
